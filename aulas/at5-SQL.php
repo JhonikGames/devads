@@ -118,7 +118,16 @@
                 '$endereco',
                 '$comportamento'
             )";
-        
+        /*
+        int(5)
+        varchar(50)
+        varchar(100)
+        varchar(100)
+        varchar(100)
+        varchar(100)
+        boolean
+        */
+
         // executa solicitação no sql
         mysqli_query($strconexao, $sql) or die("Erro ao cadastrar");
 
